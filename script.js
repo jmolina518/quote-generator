@@ -1,3 +1,5 @@
+const quoteContainer = document.getElementById('quote-container')
+
 let apiQuotes = []
 
 // Show New Quote
