@@ -46,6 +46,7 @@ function tweetQuote() {
 
 // Event Listeners
 newQuoteBtn.addEventListener('click', newQuote)
+twitterBtn.addEventListener('click', tweetQuote)
 
 // On Load
 
