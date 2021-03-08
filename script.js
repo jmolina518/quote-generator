@@ -44,6 +44,9 @@ function tweetQuote() {
   window.open(twitterUrl, '_blank')
 }
 
+// Event Listeners
+newQuoteBtn.addEventListener('click', newQuote)
+
 // On Load
 
 getQuote()
